@@ -1,0 +1,309 @@
+.main-titil {}
+
+.main-titil h6 {
+    position: relative;
+    color: #106eea;
+    display: inline-block;
+    z-index: 1;
+}
+
+.main-titil h6::before {
+    content: "";
+    position: absolute;
+    background-color: #e7f1fd;
+    width: 120px;
+    height: 33px;
+    top: -29%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+    border-radius: 30px;
+}
+
+.main-titil h3 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222222;
+}
+
+.main-titil h3 span {
+    color: #106eea;
+}
+
+.main-titil p {
+    width: 500px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Navbar */
+
+.navbar .navbar-brand {
+    color: #222222;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand span {
+    color: #106eea;
+}
+
+.navbar .collapse .navbar-nav .nav-item {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+    color: #222222;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover,
+.navbar .collapse .navbar-nav .nav-item .nav-link.active {
+    color: #106eea;
+}
+
+
+/* landing */
+
+.landing {
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+.landing h1 {
+    font-weight: bold;
+}
+
+.landing h1 span {
+    color: #106eea;
+}
+
+.landing p {
+    font-size: 23px;
+    font-weight: 500;
+    color: #555555;
+}
+
+
+/* //Landing */
+
+
+/* Lond */
+
+.lond {
+    position: relative;
+}
+
+.lond .lond-box {
+    background-color: white;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+    border: none;
+}
+
+.lond .lond-box .icon {
+    font-size: 45px;
+    padding-bottom: 10px;
+    color: #106eea;
+}
+
+.lond .lond-box h5 {
+    color: #222222;
+}
+
+
+/* //Lond */
+
+
+/* About */
+
+.about {
+    background-color: #f6f9fe;
+}
+
+.about .about-box h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about .about-box .about-text .about-icon {
+    color: #106eea;
+    font-size: 30px;
+}
+
+.about .about-box .about-text .main-he h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about .about-box .pragh p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+/*  */
+
+.hoto .hoto-icon {
+    position: absolute;
+    bottom: 98px;
+    color: #106eea;
+    left: 39%;
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
+.hoto .box-hoto {
+    background: #f1f6fe;
+}
+
+.hoto .box-hoto h3 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.hoto .box-hoto span {
+    color: #777;
+}
+
+
+/*  */
+
+.clients {
+    background: #f1f6fe;
+}
+
+.clients .ima {
+    width: 80px;
+}
+
+
+/*  */
+
+.services .box-services {
+    border: 1px solid black;
+    padding: 60px 20px;
+}
+
+.services .box-services .icoo {
+    border: 1px solid #f1f6fe;
+    font-size: 50px;
+    padding: 12px;
+    color: #106eea;
+    background-color: #f1f6fe;
+}
+
+
+/*  */
+
+.team {
+    background: #f1f6fe;
+}
+
+.team .team-box {
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+    border-radius: 6px;
+}
+
+.team .team-box .img-team {
+    position: relative;
+    overflow: hidden;
+}
+
+.team .team-box .img-team .over {
+    position: absolute;
+    top: 80%;
+    left: -22px;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+    opacity: 0;
+}
+
+.team .team-box .img-team .over ul {
+    list-style: none;
+}
+
+.team .team-box .img-team .over ul li {
+    padding-left: 12px;
+}
+
+.team .team-box .img-team .over ul li a {
+    padding: 7px;
+    background-color: #106eea;
+    color: white;
+    border-radius: 5px;
+}
+
+.team .team-box .img-team .over ul li a:hover {
+    background-color: #106eea81;
+}
+
+.team .team-box:hover .img-team .over {
+    transform: translateY(10px);
+    opacity: 3;
+}
+
+
+/*  */
+
+.pricing .pricing-box {
+    border: none;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+}
+
+.pricing .pricing-box .p-header {
+    background-color: #7777771a;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.pricing .pricing-box .p-footer {
+    background-color: #7777771a;
+}
+
+.pricing .pricing-box .p-one {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pricing .pricing-box .p-one span {
+    color: #106eea;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+/*  */
+
+.contact {
+    background: #f1f6fe;
+}
+
+.contact .cont-box {
+    background-color: white;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+}
+
+.contact .cont-box h4 {
+    font-weight: bold;
+    color: #777;
+}
+
+.contact .contact-info {
+    background-color: white;
+}
+
+
+/*  */
+
+.footer {
+    background: #f1f6fe;
+}
